@@ -1,22 +1,23 @@
 function SendMessage() {
     //use const because the name don't change
-    const nombre = prompt("Input your name")
-    const age = prompt("Inuput your age")
+    const name = prompt("Input your name")
+    let age = prompt("Input your age")
     age = parseInt(age)
 
     //Conditionals for validations in the inputs
-    if (nombre == null || nombre == "") {
+    if (name == null || name == "") {
         alert("I dont know who are you, but continue writing code")
     } else if (isNaN(age)) {
+        //IMPORTANT!! The error to print in console
         console.error("Error: Input a valid age")
     }
     
     //Conditional for alerts in cases to ages
     if (age >= 18) {
-        alert(`Hello ${nombre}, continue exploring in the world of the develoment, find chamba!!`)
+        alert(`Hello ${name}, continue exploring in the world of the develoment, find chamba!!`)
 
     } else if (age < 18) {
-        alert(`Wow ${nombre} you are more youngest, continue learn`)  
+        alert(`Wow ${name} you are more youngest, continue learning`)  
 
     } 
 }
