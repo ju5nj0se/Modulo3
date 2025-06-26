@@ -26,6 +26,7 @@ form.addEventListener("submit", (e)=> {
     usuarios[name.value] = {email: email.value, pass: pass.value}
     printUsersTable([name.value, email.value, pass.value, "otra accion"])
 
+    
     form.reset()
 })
 
