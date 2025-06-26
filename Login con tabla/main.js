@@ -8,6 +8,9 @@ const usuarios = {name: {email:"correo", pass: "contraseña"}}
 
 function printUsersTable(datos) {
     const column = document.createElement("tr");
+    id = 0
+
+    
     table.appendChild(column)
     for (let item of datos) {
         const cell = document.createElement("td");
@@ -16,15 +19,12 @@ function printUsersTable(datos) {
     }
 }
 
-function UpdateUser() {
-
-}
 
 form.addEventListener("submit", (e)=> {
     e.preventDefault()
     
     usuarios[name.value] = {email: email.value, pass: pass.value}
-    printUsersTable([name.value, email.value, pass.value])
+    printUsersTable([name.value, email.value, pass.value, "otra accion"])
 
     form.reset()
 })
