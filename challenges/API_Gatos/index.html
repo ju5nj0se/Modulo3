@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+
+    <style>
+        body, div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 3em;
+        }
+        button {
+            margin: 2em;
+        }
+
+        #cat {
+            width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+ <h1>API de gatos</h1>
+ <div class="container-fluid">
+    <img id="cat" alt="Photo Cat" class="rounded mx-auto d-block">
+    <button type="button" class="btn btn-light" id="btn">Generate <img src="spinner-solid.svg"></button>
+ </div>
+    
+</body>
+<script src="main.js"></script>
+</html>

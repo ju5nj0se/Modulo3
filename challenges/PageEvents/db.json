@@ -1,0 +1,25 @@
+{
+   "events": [
+    {
+        "id":1,
+        "title":"Evento Ejemplo",
+        "urlIMG":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fcevents.es%2Fblog%2Ftipos-eventos-corporativos%2F&psig=AOvVaw2kateTH9phVyOujPkohrec&ust=1751987997925000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJi714eGq44DFQAAAAAdAAAAABAE",
+        "description":"Descripcion del evento",
+        "date":"2025-24-01",
+        "state":"activo"
+    },
+    {
+        "id":2,
+        "title":"Evento Ejemplo",
+        "urlIMG":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fcevents.es%2Fblog%2Ftipos-eventos-corporativos%2F&psig=AOvVaw2kateTH9phVyOujPkohrec&ust=1751987997925000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJi714eGq44DFQAAAAAdAAAAABAE",
+        "description":"Descripcion del evento",
+        "date":"2025-24-01",
+        "state":"inactivo"
+    }
+   ],
+
+   "userAdmin": {
+    "userName":"antony",
+    "password":"antony123"
+   }
+}

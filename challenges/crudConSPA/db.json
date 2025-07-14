@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "asdf",
+      "age": "asdf",
+      "languaje": "asdf",
+      "id": 7
+    },
+    {
+      "name": "a",
+      "age": "a",
+      "languaje": "a",
+      "id": 8
+    },
+    {
+      "name": "a",
+      "age": "a",
+      "languaje": "a",
+      "id": 9
+    },
+    {
+      "name": "Nuevo usuario",
+      "age": "14",
+      "languaje": "Ruby",
+      "id": 10
+    }
+  ]
+}
